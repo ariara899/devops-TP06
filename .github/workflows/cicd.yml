@@ -19,7 +19,7 @@ on:
 
 # ── Variables globales ────────────────────────────────────
 env:
-  DOCKER_IMAGE: ${{ secrets.ariara899 }}/devops-portfolio
+  DOCKER_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/devops-portfolio
   PYTHON_VERSION: "3.12"
 
 # ── Jobs ──────────────────────────────────────────────────
